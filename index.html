@@ -1,0 +1,19 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'">
+<meta name="robots" content="noindex,nofollow"><title>SAGA Attendance</title><link rel="stylesheet" href="assets/style.css"></head>
+<body><header class="top"><div class="brand"><span class="logo">S</span><b>SAGA</b>ATTENDANCE</div>
+<nav class="langs"><a href="?lang=th" data-l="th">ไทย</a><a href="?lang=zh" data-l="zh">中文</a><a href="?lang=my" data-l="my">မြန်မာ</a></nav></header>
+<main id="app">
+<section class="hero"><p class="eyebrow">SAGASONIC + BUILDER</p><h1 data-i="title"></h1><p class="muted" data-i="subtitle"></p></section>
+<section class="filters card">
+<label><span data-i="search">Face ID</span><input id="q" placeholder="SA023 / BD010" maxlength="12" autocomplete="off"></label>
+<label><span data-i="date">วันที่</span><select id="date"></select></label>
+<label><span data-i="dept">แผนก</span><select id="dept"></select></label>
+<label><span data-i="status">สถานะ</span><select id="status"></select></label>
+</section>
+<section class="stats" id="stats"></section>
+<p class="note" id="coverage"></p>
+<section class="grid" id="list"></section>
+<dialog id="detail"></dialog>
+</main>
+<footer class="foot" data-i="internal"></footer><script src="assets/app.js"></script></body></html>
