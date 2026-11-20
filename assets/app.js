@@ -6,7 +6,7 @@ th:{loginTitle:'เข้าสู่ระบบ HR',loginNote:'เฉพาะ
  search:'ค้นหา Face ID',date:'วันที่',dept:'แผนก',status:'สถานะ',all:'ทั้งหมด',allDates:'ทุกวันที่ตรวจแล้ว',issues:'เฉพาะที่ต้องติดตาม',
  s_full:'ครบ',s_partial:'สแกนไม่ครบ',s_none:'ไม่สแกน',s_review:'รอตรวจ',s_manual:'ตรวจด้วยมือ',
  st_people:'พนักงานที่แสดง',st_issue:'คน-วันที่ต้องติดตาม',st_full:'คน-วันครบ',st_manual:'ตรวจด้วยมือ',
- coverage:'ตรวจครบเฉพาะ 2–7 พ.ย. วันที่ 1 และ 8 พ.ย. ข้อมูลส่งออกไม่ครบ จึงไม่สรุปว่าขาด',am:'เช้า',pm:'บ่าย',noPhoto:'ไม่มีรูป',punches:'บันทึกสแกน',close:'ปิด',
+ am:'เช้า',pm:'บ่าย',noPhoto:'ไม่มีรูป',punches:'บันทึกสแกน',close:'ปิด',
  f_name_mismatch_unresolved:'ชื่อในชีตกับ HR ไม่ตรงกัน รอยืนยัน',f_bd010_ac141_not_written:'7/11 ช่องบ่าย (AC141) ยังไม่ได้ลง รออนุมัติ',manualNote:'ออนไลน์/SA088/SA089/ไม่มี Face ID — ตรวจด้วยมือ',noScanRule:'กติกา No Scan: มีสแกน ≥1 ครั้ง = เต็มวัน',empty:'ไม่พบข้อมูล',internal:'ข้อมูลภายในบริษัท ห้ามเผยแพร่'},
 zh:{loginTitle:'HR 登录',loginNote:'仅限授权管理员。输入人脸编号不代表身份验证',user:'用户名',pass:'密码',signin:'登录',logout:'退出',
  e_bad:'用户名或密码错误',e_throttled:'尝试次数过多，请等待15分钟',e_notconfigured:'尚未设置用户，系统暂时关闭访问',e_csrf:'页面已过期，请重试',
@@ -14,7 +14,7 @@ zh:{loginTitle:'HR 登录',loginNote:'仅限授权管理员。输入人脸编号
  search:'搜索人脸编号',date:'日期',dept:'部门',status:'状态',all:'全部',allDates:'全部已核对日期',issues:'仅需跟进',
  s_full:'完整',s_partial:'打卡不完整',s_none:'未打卡',s_review:'待复核',s_manual:'人工核对',
  st_people:'显示员工',st_issue:'需跟进人次',st_full:'完整人次',st_manual:'人工核对',
- coverage:'仅 11月2–7日 已完整核对。11月1日和8日导出数据不完整，不判定缺勤',am:'上午',pm:'下午',noPhoto:'无照片',punches:'打卡记录',close:'关闭',
+ am:'上午',pm:'下午',noPhoto:'无照片',punches:'打卡记录',close:'关闭',
  f_name_mismatch_unresolved:'表格与 HR 姓名不一致，待确认',f_bd010_ac141_not_written:'11/7 下午格 (AC141) 未填写，待批准',manualNote:'线上/SA088/SA089/无人脸编号 — 人工核对',noScanRule:'No Scan 规则：≥1 次打卡 = 全天',empty:'无数据',internal:'公司内部资料，禁止外传'},
 my:{loginTitle:'HR ဝင်ရောက်ရန်',loginNote:'ခွင့်ပြုထားသော စီမံသူများသာ။ Face ID ရိုက်ထည့်ခြင်းသည် အတည်ပြုခြင်း မဟုတ်ပါ',user:'အသုံးပြုသူ',pass:'စကားဝှက်',signin:'ဝင်မည်',logout:'ထွက်မည်',
  e_bad:'အသုံးပြုသူ သို့မဟုတ် စကားဝှက် မှားနေသည်',e_throttled:'အကြိမ်များစွာ မှားသဖြင့် ၁၅ မိနစ် စောင့်ပါ',e_notconfigured:'အသုံးပြုသူ မသတ်မှတ်ရသေးသဖြင့် ဝင်ခွင့် ပိတ်ထားသည်',e_csrf:'စာမျက်နှာ သက်တမ်းကုန်သည်၊ ထပ်ကြိုးစားပါ',
@@ -22,7 +22,7 @@ my:{loginTitle:'HR ဝင်ရောက်ရန်',loginNote:'ခွင့်
  search:'Face ID ရှာရန်',date:'ရက်စွဲ',dept:'ဌာန',status:'အခြေအနေ',all:'အားလုံး',allDates:'စစ်ပြီးရက်အားလုံး',issues:'လိုက်လံရန်သာ',
  s_full:'ပြည့်စုံ',s_partial:'စကင် မပြည့်စုံ',s_none:'စကင် မလုပ်',s_review:'စစ်ဆေးဆဲ',s_manual:'လက်ဖြင့်စစ်',
  st_people:'ပြသထားသော ဝန်ထမ်း',st_issue:'လိုက်လံရန် လူ-ရက်',st_full:'ပြည့်စုံ လူ-ရက်',st_manual:'လက်ဖြင့်စစ်',
- coverage:'နိုဝင်ဘာ ၂–၇ သာ အပြည့်စစ်ပြီး။ ၁ နှင့် ၈ ရက် ဒေတာမပြည့်စုံ၍ ပျက်ကွက်ဟု မသတ်မှတ်ပါ',am:'မနက်',pm:'ညနေ',noPhoto:'ဓာတ်ပုံမရှိ',punches:'စကင်မှတ်တမ်း',close:'ပိတ်',
+ am:'မနက်',pm:'ညနေ',noPhoto:'ဓာတ်ပုံမရှိ',punches:'စကင်မှတ်တမ်း',close:'ပိတ်',
  f_name_mismatch_unresolved:'ဇယားနှင့် HR အမည် မကိုက်ညီ၊ အတည်ပြုရန်',f_bd010_ac141_not_written:'၇/၁၁ ညနေကွက် (AC141) မဖြည့်ရသေး',manualNote:'အွန်လိုင်း/SA088/SA089/Face ID မရှိ — လက်ဖြင့်စစ်',noScanRule:'No Scan စည်းမျဉ်း: စကင် ≥၁ = တစ်နေ့လုံး',empty:'ဒေတာ မရှိ',internal:'ကုမ္ပဏီတွင်းသုံးသာ'}};
 const qs=new URLSearchParams(location.search);const lang=['th','zh','my'].includes(qs.get('lang'))?qs.get('lang'):'th';
 const t=k=>I18N[lang][k]??I18N.th[k]??k;const $=id=>document.getElementById(id);
@@ -36,6 +36,17 @@ if(!$('err')&&false){}
  const ISSUE=['none','partial','review'];let D;
  const dayTxt=d=>new Date(d+'T12:00:00+07:00').toLocaleDateString({th:'th-TH',zh:'zh-CN',my:'my-MM'}[lang],{day:'numeric',month:'short'});
  const opt=(s,v,l)=>{const o=el('option','',l);o.value=v;s.append(o);};
+ const TH_M=['ม.ค.','ก.พ.','มี.ค.','เม.ย.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'];
+ const MY_M=['ဇန်နဝါရီ','ဖေဖော်ဝါရီ','မတ်','ဧပြီ','မေ','ဇွန်','ဇူလိုင်','ဩဂုတ်','စက်တင်ဘာ','အောက်တိုဘာ','နိုဝင်ဘာ','ဒီဇင်ဘာ'];
+ const MY_D='၀၁၂၃၄၅၆၇၈၉';
+ const myNum=n=>String(n).replace(/\d/g,ch=>MY_D[ch]);
+ const isoParts=iso=>{const [y,m,d]=String(iso).split('-').map(Number);return {y,m,d};};
+ function consec(isos){const out=[];(isos||[]).forEach(iso=>{if(!out.length){out.push([iso]);return;}const p=isoParts(iso),q=isoParts(out[out.length-1][out[out.length-1].length-1]);const prev=Date.UTC(q.y,q.m-1,q.d),cur=Date.UTC(p.y,p.m-1,p.d);if((cur-prev)/86400000===1&&p.y===q.y&&p.m===q.m)out[out.length-1].push(iso);else out.push([iso]);});return out;}
+ function joinList(arr){if(!arr.length)return '';if(arr.length===1)return arr[0];if(lang==='zh')return arr.join('、');const mid=arr.slice(0,-1).join(lang==='my'?'၊ ':', ');return mid+(lang==='th'?' และ ':lang==='my'?' နှင့် ':', ')+arr[arr.length-1];}
+ function ranges(isos){return consec(isos).map(g=>{const a=isoParts(g[0]),b=isoParts(g[g.length-1]);const dn=n=>lang==='my'?myNum(n):String(n);return g.length===1?dn(a.d):dn(a.d)+'–'+dn(b.d);});}
+ function dateList(isos){if(!isos||!isos.length)return '';const by={};isos.forEach(iso=>{const p=isoParts(iso),k=p.y+'-'+String(p.m).padStart(2,'0');(by[k]=by[k]||[]).push(iso);});return Object.keys(by).sort().map(k=>{const m=+k.split('-')[1];const r=joinList(ranges(by[k]));if(lang==='th')return r+' '+TH_M[m-1];if(lang==='zh')return m+'月'+r+'日';return MY_M[m-1]+' '+r;}).join(lang==='zh'?'，':' ');}
+ function stamp(){const raw=D.generatedAt||D.generated||'';let dt=null;if(D.generatedAt)dt=new Date(D.generatedAt);else{const m=String(raw).match(/(\d{4}-\d{2}-\d{2})(?:[ T](\d{2}):(\d{2}))?/);if(m)dt=new Date(m[1]+'T'+(m[2]?m[2]+':'+m[3]+':00':'12:00:00')+'+07:00');}if(!dt||isNaN(+dt))return '';const bag={};new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(dt).forEach(x=>{if(x.type!=='literal')bag[x.type]=x.value;});const y=+bag.year,mo=+bag.month,d=+bag.day,hm=bag.hour+':'+bag.minute;if(lang==='th')return d+' '+TH_M[mo-1]+' '+(y+543)+' เวลา '+hm+' น. (Asia/Bangkok)';if(lang==='zh')return y+'年'+mo+'月'+d+'日 '+hm+'（Asia/Bangkok）';return MY_M[mo-1]+' '+myNum(d)+'၊ '+myNum(y)+' '+myNum(hm)+' (Asia/Bangkok)';}
+ function coverageText(){const ch=dateList(D.checkedDates||[]),un=dateList(D.uncheckedDates||[]),st=stamp();let s='';if(lang==='zh'){s=ch?'仅 '+ch+' 已完整核对。':'';if(un)s+=un+'导出数据不完整，不判定缺勤。';if(st)s+='更新于 '+st;}else if(lang==='my'){s=ch?ch+' သာ အပြည့်စစ်ပြီး။ ':'';if(un)s+=un+' ရက် ဒေတာမပြည့်စုံ၍ ပျက်ကွက်ဟု မသတ်မှတ်ပါ။ ';if(st)s+=st+' အပ်ဒိတ်';}else{s=ch?'ตรวจครบเฉพาะ '+ch:'';if(un)s+=(s?' ':'')+'วันที่ '+un+' ข้อมูลส่งออกไม่ครบ จึงไม่สรุปว่าขาด';if(st)s+=(s?' · ':'')+'อัปเดต '+st;}return s.replace(/\s+/g,' ').trim();}
  fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{D=d;init();}).catch(()=>{$('list').replaceChildren(el('p','err',t('empty')));});
  function init(){
   opt($('date'),'all',t('allDates'));D.checkedDates.forEach(d=>opt($('date'),d,dayTxt(d)));
@@ -44,7 +55,7 @@ if(!$('err')&&false){}
   if(qs.get('date')&&D.checkedDates.includes(qs.get('date')))$('date').value=qs.get('date');
   if(qs.get('face'))$('q').value=qs.get('face');
   ['q','date','dept','status'].forEach(i=>$(i).addEventListener('input',render));
-  $('coverage').textContent=t('coverage');render();}
+  if($('coverage'))$('coverage').textContent=coverageText();render();}
  function sts(e,dates){return dates.map(d=>e.days[d]?.s).filter(Boolean);}
  function render(){
   const q=$('q').value.trim().toUpperCase().replace(/[\s-]/g,''),dt=$('date').value,dp=$('dept').value,st=$('status').value;
